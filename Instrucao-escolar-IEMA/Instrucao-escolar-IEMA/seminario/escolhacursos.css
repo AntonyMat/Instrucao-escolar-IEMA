@@ -1,0 +1,37 @@
+#retangulo-superior {
+    width: 150%;
+    height: 150px;
+    background-color: #276BBA;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#logo{
+    width: 5rem;
+    height: 5rem;
+    border: 2px #bc2525;
+    border-radius: 50%;
+    align-items: left;
+    margin-left: 1rem;
+   margin-top: 0.8rem;
+}
+#text{
+    color:#ffffff;
+    padding: 5px;
+    text-align: left;
+}
+#h1{
+    font-family: Georgia, serif;
+    margin-left: 90px;
+    font-size: 450%;
+    padding:20px;
+    top: 21.5px;
+}
+#retangulo-infer {
+    width: 150%;
+    height: 400px;
+    background-color: #1a5293;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
