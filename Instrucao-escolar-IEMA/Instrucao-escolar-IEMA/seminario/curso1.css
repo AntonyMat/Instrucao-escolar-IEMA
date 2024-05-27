@@ -38,33 +38,32 @@
 
 }
 #text-block{
-    font-size: 150%;
+    font-size: 170%;
     width: 75%;
-    height: 30%;
+    height: 40%;
     background-color: #f0eded;
     position: fixed;
     align-items: left;
     margin-left: 12%;
     margin-top: auto;
-    top: 35%;
+    top:40%;
     border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #botao {
     position: fixed;
-    bottom: 20px;
+    bottom: 40px; /* Movi o botão 20px mais para cima */
     left: 50%;
     transform: translateX(-50%);
-    background-color: #FF5733;
+    background-color: #532bc0;
     color: white;
-    padding: 10px 20px;
+    padding: 20px 40px; /* Aumentei o padding para deixar o botão maior */
+    font-size: 18px; /* Aumentei o tamanho da fonte */
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 #botao:hover {
-    background-color: #FF794C;
+    background-color: #630ec5;
 }
-
- 
