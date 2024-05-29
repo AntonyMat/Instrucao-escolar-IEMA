@@ -50,9 +50,12 @@
     border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+/*botoes*/
+
+
 #botao {
     position: fixed;
-    bottom: 40px; /* Movi o botão 20px mais para cima */
+    bottom: 40px;
     left: 50%;
     transform: translateX(-50%);
     background-color: #532bc0;
