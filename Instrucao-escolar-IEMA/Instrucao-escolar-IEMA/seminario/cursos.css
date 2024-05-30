@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+}
+.flex{
+    display: flex;
+}
+h1.titulo{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+h1.titulo span{
+    color: #3580db;
+}
+
+body {
+    background-color: #f1f6fc31;
+}
+
+p {
+    color: #000000;
+}
+
+.container {
+    max-width: 14000px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.btn {
+    background-color: #4f9cf9;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1s;
+}
+.btn:hover{
+    background-color: #3580db;
+}
+
+header {
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+}
+nav ul a::after{
+    content: "";
+    background-color: rgb(230, 224, 244);
+    height: 3px;
+    width: 0%;
+    display: block;
+    margin: 0 auto;
+    transition: 0.3s;
+}
+nav ul a:hover::after{
+    width: 100%;
+}
+
+section.especialidades{
+    padding: 40px 4%;
+}
+
+section.especialidades .flex{
+    gap: 60px;
+}
+.especialidades .cursos-box{
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 50px;
+    transition: .2s;
+}
+
+.especialidades .cursos-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ffffff63;
+
+}
+
+.especialidades .cursos-box i{
+    font-size: 70px;
+    color: #000000;
+}
+
+.especialidades .cursos-box h2{
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.sistemas {
+    
+}
