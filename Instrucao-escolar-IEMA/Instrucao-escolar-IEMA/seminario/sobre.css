@@ -1,0 +1,73 @@
+
+#retangulo-superior {
+    width: 150%;
+    height: 150px;
+    background-color: #276BBA;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#logo{
+    width: 5rem;
+    height: 5rem;
+    border: 2px #bc2525;
+    border-radius: 50%;
+    align-items: left;
+    margin-left: 1rem;
+   margin-top: 0.8rem;
+}
+#text{
+    color:#ffffff;
+    padding: 5px;
+    text-align: left;
+}
+#h1{
+    font-family: Georgia, serif;
+    margin-left: 90px;
+    font-size: 450%;
+    padding:20px;
+    top: 21.5px;
+}
+#retangulo-infer {
+    width: 150%;
+    height: 400px;
+    background-color: #1a5293;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+#text-block{
+    font-size: 170%;
+    width: 75%;
+    height: 40%;
+    background-color: #f0eded;
+    position: fixed;
+    align-items: left;
+    margin-left: 12%;
+    margin-top: auto;
+    top:40%;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*botoes*/
+
+
+#botao {
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #532bc0;
+    color: white;
+    padding: 20px 40px; /* Aumentei o padding para deixar o botão maior */
+    font-size: 18px; /* Aumentei o tamanho da fonte */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+#botao:hover {
+    background-color: #630ec5;
+}
