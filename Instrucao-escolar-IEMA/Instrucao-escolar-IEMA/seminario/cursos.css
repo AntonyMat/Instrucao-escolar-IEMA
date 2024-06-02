@@ -22,9 +22,8 @@ h1.titulo span{
 body {
     background-color: #f1f6fc31;
 }
-
 p {
-    color: #000000;
+    color: #fff;
 }
 
 .container {
@@ -116,8 +115,4 @@ section.especialidades .flex{
 .especialidades .cursos-box h2{
     font-size: 30px;
     margin: 15px 0;
-}
-
-.sistemas {
-    
 }
