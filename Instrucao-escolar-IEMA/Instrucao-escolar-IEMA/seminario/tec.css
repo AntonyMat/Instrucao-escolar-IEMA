@@ -1,63 +1,81 @@
+
 body {
     font-family: Arial, sans-serif;
     background-color: #648add;
     color: white;
     margin: 0;
     padding: 0;
-    text-align: center;
 }
+
 header {
     background-color: #333435;
     padding: 30px 0;
+    text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 header img {
     vertical-align: middle;
 }
+
 nav {
-    display: inline-block;
-    margin-left: 20px;
+    display: left;
+    margin-left: 10px;
 }
+
 nav a {
     color: white;
     text-decoration: none;
     margin: 0 15px;
     padding: 5px 10px;
 }
+
 nav a:hover {
     background-color: #555555;
     border-radius: 5px;
 }
+
 .container {
-    padding: 20px;
+    padding: 10px;
+    text-align: center; 
 }
+
 .container h1 {
     font-size: 100px;
     margin-bottom: 20px;
     color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px rgb(101, 101, 122);
 }
+
 .highlight {
-    color: #4a90e2;
-    color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px rgb(70, 70, 87);
+    color: #ffffff;  
 }
+
+.courses-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 .course {
-    display: inline-block;
-    width: 40%;
+    font-size: 30px;
+    width: 90%;
     margin: 50px;
     background-color: #444444;
-    padding: 300px;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left; /* Alinhar o texto à esquerda */
 }
+
 .course h2 {
     font-size: 1.5em;
     margin-bottom: 10px;
 }
+
 .course p {
     text-align: left;
 }
+
 .course-icon {
     font-size: 3em;
     margin-bottom: 20px;
