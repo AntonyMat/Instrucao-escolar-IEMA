@@ -20,7 +20,7 @@ h1.titulo span{
 }
 
 body {
-    background-color: #f1f6fc31;
+    background-color: #dfdfdfaf;
 }
 p {
     color: #fff;
@@ -99,6 +99,7 @@ section.especialidades .flex{
     border-radius: 20px;
     margin-top: 50px;
     transition: .2s;
+    background-size: cover;
 }
 
 .especialidades .cursos-box:hover{
@@ -109,10 +110,11 @@ section.especialidades .flex{
 
 .especialidades .cursos-box i{
     font-size: 70px;
-    color: #000000;
+    color: #ffffff;
 }
 
 .especialidades .cursos-box h2{
     font-size: 30px;
     margin: 15px 0;
 }
+
