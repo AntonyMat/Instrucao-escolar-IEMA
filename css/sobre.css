@@ -1,69 +1,79 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+* {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Inter', sans-serif;
 }
+.flex{
+    display: flex;
+}
+h1.titulo{
+    color: #fff;
+    font-size: 5100px;
+    text-align: center;
+}
+h1.titulo span{
+    color: #3580db;
+}
+
+body {
+    background-color: #dfdfdfaf;
+}
+p {
+    color: #fff;
+}
+
 
 header {
-    background: #00539C;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
+    background-position: center;
+    background-size: cover;
 }
 
-header h1 {
-    color: #f4f4f4;
-    margin: 0;
-    font-size: 2rem;
-}
-header h5 {
-    color: #f4f4f4;
-    margin: 0;
-    font-size: 2rem;
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
 }
 
-main {
-    padding: 20px;
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
 }
 
-section {
-    background: #fff;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+nav ul li {
+    margin: 0 15px;
 }
 
-section h2 {
-    color: #00539C;
-}
-
-section p {
-    font-size: 1.1rem;
-}
-
-section ol {
-    padding-left: 20px;
-}
-
-section ol li {
-    margin-bottom: 10px;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
+nav ul a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
     display: block;
-    margin: 20px auto;
 }
+nav ul a::after{
+    background-color: rgb(230, 224, 244);
+    height: 3px;
+    width: 0%;
+    display: block;
+    margin: 0 auto;
+    transition: 0.3s
 
-footer {
-    background: #00539C;
-    color: #fff;
-    text-align: center;
-    position: relative;
+}
+.container {
     width: 100%;
-    bottom: 1;
+    margin: 0 auto;
+}
+.caixa-centralizada {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
 }
