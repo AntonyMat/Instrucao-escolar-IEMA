@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -8,49 +7,45 @@
     outline: none;
     font-family: 'Inter', sans-serif;
 }
-
-body {
-    background-size: cover;
+.flex{
+    display: flex;
 }
-
-section,
-footer {
-    padding: 54px 0;
+h1.titulo{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
 }
-
-h3 {
-    font-size: 50px;
+h1.titulo span{
+    color: #3580db;
 }
 
 p {
-    color: #000000;
+    color: #fff;
 }
 
 .container {
     max-width: 14000px;
     margin: 0 auto;
     padding: 0 5%;
-    background-size: cover;
 }
 
 .btn {
-
+    background-color: #4f9cf9;
     color: white;
-    padding: 30px 40px;
-    border-radius: 20px;
+    padding: 15px 20px;
+    border-radius: 10px;
     cursor: pointer;
     display: inline-block;
     transition: 0.1s;
-    font-size: 20px;
 }
-
-.btn:hover {
+.btn:hover{
     background-color: #3580db;
 }
 
 header {
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 nav {
@@ -76,9 +71,7 @@ nav ul a {
     font-size: 14px;
     display: block;
 }
-
-nav ul a::after {
-    content: "";
+nav ul a::after{
     background-color: rgb(230, 224, 244);
     height: 3px;
     width: 0%;
@@ -86,30 +79,6 @@ nav ul a::after {
     margin: 0 auto;
     transition: 0.3s;
 }
-
-nav ul a:hover::after {
+nav ul a:hover::after{
     width: 100%;
-}
-
-.banner {
-    display: flex;
-    justify-content: center;
-}
-
-.banner .banner-text {
-    margin: 150px;
-    text-align: center;
-    padding: 0 90px;
-}
-
-.banner .banner-text h1 {
-    font-size: 96px;
-    color: white;
-}
-
-.banner .banner-text p {
-    font-size: 20px;
-    color: #050505de;
-
-    margin: 18px 0;
 }
