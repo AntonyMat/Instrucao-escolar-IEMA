@@ -10,7 +10,7 @@
 }
 
 body {
-    background-size: cover;
+    
 }
 
 section,
@@ -18,12 +18,13 @@ footer {
     padding: 54px 0;
 }
 
-h3 {
-    font-size: 50px;
+h2 {
+    font-size: 33px;
 }
 
 p {
     color: #000000;
+    font-size: 23px;    
 }
 
 .container {
@@ -94,22 +95,30 @@ nav ul a:hover::after {
 .banner {
     display: flex;
     justify-content: center;
+    
 }
 
-.banner .banner-text {
-    margin: 150px;
-    text-align: center;
-    padding: 0 90px;
+.banner img{
+    height: 550px;
+    width: 1200px;
 }
 
-.banner .banner-text h1 {
-    font-size: 96px;
-    color: white;
-}
-
-.banner .banner-text p {
-    font-size: 20px;
-    color: #050505de;
-
-    margin: 18px 0;
-}
+.question {
+    margin: 50px;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0
+  }
+  
+  .question input,
+  .question .answer { display: none }
+  
+  .question label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 50%
+  }
+  
+  .question input:checked ~ .answer {
+    display: block
+  }
